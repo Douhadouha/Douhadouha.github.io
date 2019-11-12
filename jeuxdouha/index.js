@@ -21,8 +21,7 @@ function updateQuestion() {
 
     if (questions === 5){
         $page2.classList.remove('active');
-        $page3.classList.add('active');
-        reset(); 
+        $page3.classList.add('active'); 
         
     }else {
 
@@ -382,7 +381,5 @@ const countdown = function () {
 }
 
 function reset(){
-   document.getElementsByClassName(".restart").onclick = function (){
        document.location.reload(true);
-   }
 }
